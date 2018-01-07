@@ -20,4 +20,9 @@ public interface UserService {
 	 */
 	List<User> findAll();
 
+	/**
+	 * Elimina un usuario con el id recibido
+	 */
+	void deleteUser(Long id);
+
 }
