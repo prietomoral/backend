@@ -6,6 +6,6 @@ import com.youtube.demo.modelo.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 	
-	@SuppressWarnings("unchecked")
-	User save(User user);
+//	@SuppressWarnings("unchecked")
+//	User save(User user);
 }
