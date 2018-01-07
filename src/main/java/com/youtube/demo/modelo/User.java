@@ -13,7 +13,7 @@ public class User extends ParentEntity {
 
 	private static final long serialVersionUID = -7641616116540143526L;
 	
-	@Column(name="firs_name",nullable=false,length=255)
+	@Column(name="first_name",nullable=false,length=255)
 	private String firstName;
 	
 	@Column(name="second_name",nullable=true,length=255)
